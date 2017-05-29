@@ -49,11 +49,7 @@ int main (int argc, string argv[]){
             
             // Compare if looking for one char password
             if (pwLen == 1){
-<<<<<<< HEAD
                 attempt = crypt(pw, salt);
-=======
-                attempt = crypt(pw, "50");
->>>>>>> ac004b3e303aa5f3d9bb9ea7e6ab7b1152dba442
                 if (compare ( attempt , argv[1])){
                     match = true;
                 }
@@ -75,11 +71,7 @@ int main (int argc, string argv[]){
                                     
                                     // Compare if looking for two char password
                                     if (pwLen == 2){
-<<<<<<< HEAD
                                         attempt = crypt(pw, salt);
-=======
-                                        attempt = crypt(pw, "50");
->>>>>>> ac004b3e303aa5f3d9bb9ea7e6ab7b1152dba442
                                         if (compare ( attempt , argv[1])){
                                             match = true;
                                         }
@@ -101,11 +93,7 @@ int main (int argc, string argv[]){
                                                             
                                                             // Compare if looking for three char password
                                                             if (pwLen == 3){
-<<<<<<< HEAD
                                                                 attempt = crypt(pw, salt);
-=======
-                                                                attempt = crypt(pw, "50");
->>>>>>> ac004b3e303aa5f3d9bb9ea7e6ab7b1152dba442
                                                                 if (compare ( attempt , argv[1])){
                                                                     match = true;
                                                                 }
@@ -126,11 +114,7 @@ int main (int argc, string argv[]){
                                                                                     
                                                                                     // Compare if looking for four char password
                                                                                     if (pwLen == 4){
-<<<<<<< HEAD
                                                                                         attempt = crypt(pw, salt);
-=======
-                                                                                        attempt = crypt(pw, "50");
->>>>>>> ac004b3e303aa5f3d9bb9ea7e6ab7b1152dba442
                                                                                         if (compare ( attempt , argv[1])){
                                                                                             match = true;
                                                                                         }
@@ -190,8 +174,4 @@ int compare (string attempt, string given){
         }
     }
     return match;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ac004b3e303aa5f3d9bb9ea7e6ab7b1152dba442
